@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "Find This Music",
+    "description": "Let's you listen to the artist and/or music referred to on a web page.",
+    "version": "1.0",
+
+    "permissions": [ "activeTab",
+		     "http://localhost:8888/*" ],
+
+    "browser_action": {
+	"default_icon": "icon.png",
+	"default_title": "Find This Music"
+    },
+
+    "background": {
+	"scripts": [
+	    "button.js"
+	],
+	"persistent": false
+    }
+}
