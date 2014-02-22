@@ -6,7 +6,7 @@
     "version": "1.0",
 
     "permissions": [ "activeTab",
-		     "http://localhost:8888/*" ],
+		     "http://apaato.thebusby.com:5223/*" ],
 
     "browser_action": {
 	"default_icon": "icon.png",
