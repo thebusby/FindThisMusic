@@ -19,7 +19,7 @@
 
 (def default-port
   "Specifies the default port to server from"
-  8080)
+  2014)
 
 
 ;; To aid with dev
@@ -72,7 +72,7 @@
 (defn httpd
   "Starts the server with the arguments specified."
   [{:keys [port] :as server-args}]
-  (let [vacr-routes (->> [(route/not-found "Not Found")] ;; Last route to execute
+  (let [vacr-routes (->> [(route/not-found "404 Dude")] ;; Last route to execute
                          (concat [(alive-route)])
                          (concat [(test-route)])
                          (concat [(reflect-route)]) ;; FOR DEBUGGING!!!!
