@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>mini audio player fork - CodePen</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <html>
+	<head>
+		<title>AudioPlayer</title>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'/>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <!--[if IE 9]>
+		<style type="text/css">
+			.slice-content:nth-child(4) {
+				-ms-transform: scaleY(1);
+			}
+			.flip{
+				-ms-transform-origin: center top;
+				-ms-transform: scaleY(0.6) !important;
+			}
+		</style>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="this-wrapper">				
+				<div class="this">	
+					<div class="wrapper">
+						<div class="likescreen">
+							<div class="likecounter"></div>
+						</div>						
+						<div class="blackscreen"></div>
+						<img src="" alt=""/>
+					</div>
+					<div class="sharescreen">
+						<div class="sharetext">Share :</div>
+						<div class="socialicons">
+              <a href="http://www.facebook.com">
+							<div class="icon facebook"></div>
+							</a>
+              <a href="http://www.twitter.com/kappuru">
+							<div class="icon twitter">
+								<div class="lineone"></div>
+								<div class="linetwo"></div>
+							</div>
+							</a>
+							<a href="http://dribbble.com/kappuru" target="_blank">
+							<div class="icon dribbble"></div>
+							</a>
+						</div>
+					</div>
+					<div class="menu">
+						<div class="share"><span></span> </div>
+						<ul>
+							<li class="previous"><span></span></li>
+							<li class="play pause"><span></span> </li>
+							<li class="next"><span></span> </li>
+						</ul>
+						<div class="like"><span></span> </div>
+					</div>
+				</div>				
+			</div>
+		</div>
+    <img class="thumbnail" src="http://i.imgur.com/Xg85YBt.jpg" alt=""/>
+		<audio >
+			 <source src="example audio.mp3" type="audio/mp3"/>
+			  <source src="example audio.ogg" type="audio/ogg"/>
+        	Your browser does not support HTML5 audio.
+		</audio>
+      <img class="thumbnail" src="http://i.imgur.com/6cwiVtD.jpg" alt=""/>		
+		<audio >
+			 <source src="example audio.mp3" type="audio/mp3"/>
+			 <source src="example audio.ogg" type="audio/ogg"/>
+        	Your browser does not support HTML5 audio.
+		</audio>
+      <img class="thumbnail" src="http://i.imgur.com/bUIkoni.png" alt=""/>
+		<audio >
+			 <source src="example audio.mp3" type="audio/mp3"/>
+			 <source src="example audio.ogg" type="audio/ogg"/>
+        	You can't play this audio man. HTML5!
+		</audio>
+	</body>
+</html>
+
+  <script src='http://codepen.io/assets/libs/fullpage/none.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
